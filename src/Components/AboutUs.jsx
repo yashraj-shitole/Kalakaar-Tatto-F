@@ -3,18 +3,18 @@ import about from "../Data/about.json";
 
 const AboutUs = () => {
   return (
-    <div id="gallery" className="h-fit lg:h-[100vh] flex flex-col items-center justify-evenly  w-full p-10 bg-black text-white">
-      <h1 className="font-bold text-center text-3xl text-primary p-10">About US</h1>
+    <div id="about us" className="h-fit lg:h-[100vh] flex flex-col items-center justify-evenly  w-full p-10 bg-black text-white">
+      <h2 className="max-w-xl text-primary text-4xl font-bold tracking-tight  sm:text-5xl">About Us</h2>
 
-      <div className="flex flex-col lg:px-20 lg:flex-row gap-5">
-        <div className="img" data-aos="fade-up-left" data-aos-duration="1000">
+      <div className="flex flex-col items-center justify-center lg:px-20 lg:flex-row gap-5">
+        <div className="lg:w-[50%]" >
           <img src={`/assets/${about.imgSrc}`} alt="hero" />
         </div>
 
-        <div className="" id="about us">
+        <div className="lg:w-[50%]" id="about us">
           <div className="about">
             <p className="P1">
-              GoogleWelcome to Kalakaar Tattoo, where art is more than just a
+              Welcome to Kalakaar Tattoo, where art is more than just a
               passion—it's a way of life. Located in the vibrant city of
               Bombay,our studio is a haven for tattoo enthusiasts and
               first-timers alike. We pride ourselves on delivering top-notch
@@ -26,7 +26,7 @@ const AboutUs = () => {
               Kalakaar Tattoo was born out of a love for the art of tattooing
               and a desire to create a space where individuals can express
               themselves through unique, custom designs. Over the years, we have
-              built a reputation as one of Bombay’s premier tattoo studios,
+              built a reputation as one of Bombays premier tattoo studios,
               known for our exceptional artistry, commitment to quality, and
               dedication to customer satisfaction.
             </p>

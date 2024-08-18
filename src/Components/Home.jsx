@@ -1,27 +1,28 @@
-import AboutUs from "./AboutUs"
-import Footer from "./Footer"
-import Gallery from "./Gallery"
-import Hero from "./Hero"
-import Navbar from "./Navbar"
-import Services from "./Services"
+import AboutUs from "./AboutUs";
+import Artists from "./Artists";
+import ContactUs from "./ContactUs";
+import Gallery from "./Gallery";
+import Hero from "./Hero";
+import Services from "./Services";
+import Testimonials from "./Testimonials";
 const Home = () => {
   return (
-<>
-    <div className='fixed w-full'>
-        <Navbar/>
-    </div>
+    <>
+      <Hero />
 
-    <Hero/>
+      <Gallery />
 
-    <Gallery/>
+      <Services />
 
-    <Services/>
+      <AboutUs />
 
-    <AboutUs/>
+      <Artists />
 
-    <Footer/>
-</>
-)
-}
+      <Testimonials />
 
-export default Home
+      <ContactUs />
+    </>
+  );
+};
+
+export default Home;
