@@ -11,7 +11,7 @@ const AboutUs = () => {
           <img src={`/assets/${about.imgSrc}`} alt="hero" />
         </div>
 
-        <div className="lg:w-[50%]" id="about us">
+        <div className="lg:w-[50%]" >
           <div className="about">
             <p className="P1">
               Welcome to Kalakaar Tattoo, where art is more than just a

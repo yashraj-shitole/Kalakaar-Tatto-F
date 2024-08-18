@@ -4,6 +4,7 @@ import './App.css'
 import Home from "./Components/Home";
 import Layout from "./Components/Layout";
 import ImageView from "./Components/ImageView";
+import GalleryPage from "./Components/GalleryPage";
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout/>}>
           <Route index element={<Home/>} />
-          <Route path="gallery" element={<ImageView />} />
+          <Route path="gallery" element={<GalleryPage/>} />
         </Route>
       </Routes>
     </BrowserRouter>    
