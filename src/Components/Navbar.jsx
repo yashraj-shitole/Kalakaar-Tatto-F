@@ -6,7 +6,7 @@ const Navbar = () => {
     <div  className=' flex items-center justify-between px-8 py-5 bg-black bg-opacity-60'>
         <div className='flex items-center justify-center gap-2'>
             <img src={logo} alt="" className='h-10'/>
-            <h1 className='text-white font-extrabold text-2xl'>KALAKAAR TATTOO</h1>
+            <a href="#home" className='text-white font-extrabold text-2xl'>KALAKAAR TATTOO</a>
         </div>
         <div className=''>
 
