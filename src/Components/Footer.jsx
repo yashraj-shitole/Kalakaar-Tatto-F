@@ -74,7 +74,7 @@ const Footer = () => {
             href="#contactus"
             className="font-bold text-white hover:text-primary opacity-100"
           >
-            Contact Us
+            CONTACT US
           </a>
         </div>
 
