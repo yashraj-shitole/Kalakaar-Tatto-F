@@ -1,0 +1,22 @@
+
+   
+[
+    {
+      "key": 1,
+      "imageSrc": "assets/services/i1.png",
+      "title": "Tattooing",
+      "description": "At Kalakaar Tattoo, our primary focus is on creating stunning, high-quality tattoos that resonate with your personal style and story. Our talented artists specialize in various tattoo styles, including traditional, realism, tribal, and more. Whether you're looking for a small, meaningful design or a large, intricate piece, we ensure that each tattoo is crafted with precision, care, and creativity. Our commitment to hygiene and safety means that you can trust us to provide a clean and professional tattooing experience every time."
+    },
+    {
+      "key": 2,
+      "imageSrc": "assets/services/i2.png",
+      "title": "Piercing",
+      "description": "In addition to our tattooing services, we also offer professional body piercing. Our skilled piercers are trained to perform a variety of piercings, from ear and nose to more advanced body piercings. We use only the highest quality, sterile equipment and hypoallergenic jewelry to ensure your piercing is done safely and with minimal discomfort. Whether you're getting your first piercing or adding to your collection, our team is here to guide you through the process and help you choose the perfect placement and style."
+    },
+    {
+      "key": 3,
+      "imageSrc": "assets/services/i3.png",
+      "title": "Tattoo Design",
+      "description": "At Kalakaar Tattoo, we understand that a tattoo is a lifelong commitment, which is why we offer custom tattoo design. Our artists work closely with you to develop a unique design that reflects your personality, interests, and vision. From the initial consultation to the final sketch, we take the time to ensure that your design is exactly what you want before it becomes a permanent piece of art on your skin. Whether you come with a clear idea or need help brainstorming, our artists are here to bring your ideas to life with creativity and expertise."
+    }
+  ]
