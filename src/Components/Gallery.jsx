@@ -10,16 +10,16 @@ const Gallery = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
   const images = [
-    '/assets/gal/t1.jpg',
-    '/assets/gal/t2.jpg',
-    '/assets/gal/t3.jpg',
-    '/assets/gal/t4.jpg',
-    '/assets/gal/t5.jpg',
-    '/assets/gal/t6.jpg',
-    '/assets/gal/t7.jpg',
-    '/assets/gal/t8.jpg',
-    '/assets/gal/t10.jpg',
-    '/assets/gal/t11.jpg',
+    "/assets/gal/t6.jpg",
+    "/assets/gal/t15.jpg",
+    "/assets/gal/t28.jpg",
+    "/assets/gal/t31.jpg",
+    "/assets/gal/t5.jpg",
+    "/assets/gal/t1.jpg",
+    "/assets/gal/t7.jpg",
+    "/assets/gal/t8.jpg",
+    "/assets/gal/t10.jpg",
+    "/assets/gal/t11.jpg",
 
 
 
