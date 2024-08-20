@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
 
-<div className="fixed w-full z-50 ">
+<div className="fixed w-full z-40 ">
         <Navbar />
       </div>
       <Hero />

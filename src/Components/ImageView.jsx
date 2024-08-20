@@ -47,7 +47,7 @@ const ImageView = () => {
   };
 
   return (
-    <div className="h-fit flex pt-28 bg-black flex-wrap gap-5 items-center justify-center p-10">
+    <div className="h-fit z-50 flex pt-28 bg-black flex-wrap gap-5 items-center justify-center p-10">
       {images.map((src, index) => (
         <img
           className="rounded-xl"
