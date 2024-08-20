@@ -12,14 +12,17 @@ const Home = () => {
   return (
     <>
 
-<div className="fixed w-full">
+<div className="fixed w-full z-50 ">
         <Navbar />
       </div>
       <Hero />
 
       <Gallery />
 
-      <InstagramVideos/>
+<div className="overflow-x-hidden">
+        <InstagramVideos/>
+
+</div>
 
       <Services />
 

@@ -17,7 +17,7 @@ const people = [
 
 const Artists = () => {
   return (
-    <div className="bg-black py-4  ">
+    <div className="bg-black py-4 z-0 ">
       <div className="p-5">
         <div className="mx-auto w-full flex flex-col items-center justify-center lg:mx-0">
         <h2 className="max-w-xl text-primary text-4xl font-bold tracking-tight  sm:text-5xl"> MEET OUR ARTISTS</h2>
@@ -36,7 +36,7 @@ const Artists = () => {
                     tabIndex="1"
                   >
                     <div  className="group relative m-0 flex w-full rounded-xl ring-primary sm:mx-auto sm:max-w-lg">
-                      <div className="z-10 h-96 w-full overflow-hidden rounded-xl border border-primary opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-primary dark:opacity-70">
+                      <div className="z-0 h-96 w-full overflow-hidden rounded-xl border border-primary opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-primary dark:opacity-70">
                         <img
                           src={person.imgSrc}
                           className="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110"
@@ -44,7 +44,7 @@ const Artists = () => {
                         />
                       </div>
                       <div
-                        className=" bg-primary p-3 rounded-xl opacity-60 absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110 group-hover:opacity-100"
+                        className=" bg-primary p-3 rounded-xl opacity-60 absolute bottom-0 z-0 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110 group-hover:opacity-100"
                       >
                         <h1 className="text-lg font-bold text-white">{person.name}</h1>
                         <h2 className="text-m font-light text-gray-200">{person.title}</h2>

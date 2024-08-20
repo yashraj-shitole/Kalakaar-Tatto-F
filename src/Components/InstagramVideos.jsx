@@ -16,15 +16,15 @@ const InstagramVideos = () => {
   };
 
   return (
-    <div className="h-fit lg:h-[100vh] flex flex-col items-center justify-evenly w-full p-10 bg-black text-white">
+    <div className="h-fit lg:h-[100vh] overflow-x-hidden flex flex-col items-center justify-evenly w-full p-10 bg-black text-white">
     
 
-      <div className='bg-black flex justify-center gap-5'>
-        <InstagramEmbed key={currentPage} url={videolink[currentPage]} width={328} /> {/* Using key to force re-render */}
+      <div className='bg-black h-full overflow-x-hidden flex justify-center gap-5'>
+        <InstagramEmbed  key={currentPage} url={videolink[currentPage]} width={328} /> 
       </div>
 
       <ReactPaginate
-        className="m-5 px-5 py-3 rounded-full bg-secondary flex gap-5 border border-[#38383820]"
+        className="m-5 px-5 py-3  rounded-full bg-secondary flex gap-5 border border-[#38383820]"
         pageCount={videolink.length}
         pageRangeDisplayed={1}
         marginPagesDisplayed={2}

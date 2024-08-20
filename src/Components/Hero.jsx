@@ -4,7 +4,7 @@ import { Button } from "@material-tailwind/react";
 
 const Hero = () => {
   return (
-    <div id='home' className=' h-[100vh] bg-center bg-fixed flex pt-28 p-5 lg:pt-5 items-center justify-center' style={{ backgroundImage: `url(${herobg})`  }}>
+    <div id='home' className=' h-[100vh] w-full bg-no-repeat bg-center lg:bg-right  bg-fixed flex pt-28 p-5 lg:pt-5 items-center justify-center' style={{ backgroundImage: `url(${herobg})`  }}>
         
         <p className=' flex flex-col gap-5 text-center items-center justify-center  text-white'>
         <h2 className="max-w-xl text-primary text-5xl font-bold tracking-tight  sm:text-6xl">
