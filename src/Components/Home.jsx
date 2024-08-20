@@ -3,6 +3,7 @@ import Artists from "./Artists";
 import ContactUs from "./ContactUs";
 import Gallery from "./Gallery";
 import Hero from "./Hero";
+import InstagramVideos from "./InstagramVideos";
 import Services from "./Services";
 import Testimonials from "./Testimonials";
 const Home = () => {
@@ -11,8 +12,11 @@ const Home = () => {
       <Hero />
 
       <Gallery />
+      
+      <InstagramVideos/>
 
       <Services />
+
 
       <AboutUs />
 

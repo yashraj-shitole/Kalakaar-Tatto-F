@@ -3,6 +3,12 @@ import { useState } from "react";
 import ImageViewer from 'react-simple-image-viewer';
 import { useCallback } from 'react';
 import { Link } from "react-router-dom";
+import { InstagramEmbed } from 'react-social-media-embed';
+
+
+
+
+
 const Gallery = () => {
 
 
