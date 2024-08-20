@@ -3,7 +3,7 @@ import SidebarWithBurgerMenu from "./SidebarWithBurgerMenu";
 import logo from "/assets/logo/logo.jpg";
 const Navbar = () => {
   return (
-    <div className=" flex w-full items-center justify-between px-8 py-2 bg-black bg-opacity-60">
+    <div className=" flex w-full z-30 items-center justify-between px-8 py-2 bg-black bg-opacity-60">
       <div className="flex items-center justify-center gap-2">
         <img src={logo} alt="" className="lg:h-20 h-10" />
         <Link to="/" className="text-white font-extrabold text-2xl">

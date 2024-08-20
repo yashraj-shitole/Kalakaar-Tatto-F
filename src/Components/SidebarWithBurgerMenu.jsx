@@ -20,11 +20,11 @@ const SidebarWithBurgerMenu = () => {
         )}
       </IconButton>
       <Drawer
-        className="bg-black opacity-80 z-40"
+        className="bg-black opacity-80 "
         open={isDrawerOpen}
         onClose={closeDrawer}
       >
-        <div className="flex flex-col z-40  gap-8 p-10 text-white bg-black">
+        <div className="flex flex-col  gap-8 p-10 text-white bg-black">
           <img src={logo} alt="" className="h-20 w-20" />
           <Link
             to="/"
