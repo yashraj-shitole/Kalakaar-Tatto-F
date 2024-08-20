@@ -20,7 +20,7 @@ const SidebarWithBurgerMenu = () => {
         )}
       </IconButton>
       <Drawer
-        className="bg-black opacity-80 z-50"
+        className="bg-black opacity-80 z-40"
         open={isDrawerOpen}
         onClose={closeDrawer}
       >
