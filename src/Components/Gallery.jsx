@@ -74,7 +74,7 @@ const Gallery = () => {
         <script async src="//www.instagram.com/embed.js"></script>
       </div>
       <div
-        className={`no-scrollbar flex items-center justify-center flex-wrap gap-10 w-full h-fit overflow-y-scroll`}
+        className={`no-scrollbar z-50 flex items-center justify-center flex-wrap gap-10 w-full h-fit overflow-y-scroll`}
       >
          {images.map((src, index) => (
         <img
@@ -89,13 +89,16 @@ const Gallery = () => {
       ))}
 
       {isViewerOpen && (
-        <ImageViewer
+        <div className="z-50">
+<ImageViewer
           src={ images }
           currentIndex={ currentImage }
           disableScroll={ false }
           closeOnClickOutside={ true }
           onClose={ closeImageViewer }
         />
+        </div>
+        
       )}
       </div>
       <div className="flex items-center justify-center p-10">
