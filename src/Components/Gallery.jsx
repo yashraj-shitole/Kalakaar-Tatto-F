@@ -74,7 +74,7 @@ const Gallery = () => {
         <script async src="//www.instagram.com/embed.js"></script>
       </div>
       <div
-        className={`no-scrollbar z-50 flex items-center justify-center flex-wrap gap-10 w-full h-fit overflow-y-scroll`}
+        className={`no-scrollbar flex items-center justify-center flex-wrap gap-10 w-full h-fit overflow-y-scroll`}
       >
          {images.map((src, index) => (
         <img
