@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { InstagramEmbed } from 'react-social-media-embed';
 import ReactPaginate from 'react-paginate';
 
