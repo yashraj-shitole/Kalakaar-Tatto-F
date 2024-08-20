@@ -31,6 +31,12 @@ const GalleryPage = () => {
           >
             HOME
           </Link>
+          <a
+            href="#contactus"
+            className="font-extrabold text-white hover:text-primary opacity-100"
+          >
+            Contact Us
+          </a>
           
           
         </div>
