@@ -45,7 +45,7 @@ const Gallery = () => {
     <div
       id="gallery"
       ref={gallery}
-      className="h-fit z-40 flex flex-col items-center justify-center w-full p-10 bg-black text-white"
+      className="h-fit z-50 flex flex-col items-center justify-center w-full p-10 bg-black text-white"
     >
               <h2 className="max-w-xl text-primary text-4xl font-bold tracking-tight  sm:text-5xl">
               OUR WORK</h2>
