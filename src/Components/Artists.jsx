@@ -2,8 +2,8 @@
 
 const people = [
   {
-    name: 'Juliet Smith',
-    title: 'Owner',
+    name: 'Khushal Waghela',
+    title: 'Artist',
     imgSrc: 'public/assets/artistimg.jpg',
     linkedIn: 'https://linkedin.com',
   }
@@ -19,7 +19,7 @@ const Artists = () => {
         </div>
         <ul
           role="list"
-          className="flex flex-wrap lg:flex-row flex-col justify-evenly gap-10"
+          className="flex  lg:flex-row flex-col items-center justify-center gap-10"
         >
           {people.map((person) => (
             <li key={person.name}>
