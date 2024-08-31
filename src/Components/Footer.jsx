@@ -83,7 +83,7 @@ const Footer = () => {
             Address- Shop no-82, Building no-14, <br />
             Evershine Amavi-303,chikhal dongre road,
             <br />
-            near club one, golbal city,virar(w)-401303,Mumbai
+            near club one, global city,virar(w)-401303,Mumbai
           </p>
 
           <h1>+91 8482949488 | 9325727823</h1>

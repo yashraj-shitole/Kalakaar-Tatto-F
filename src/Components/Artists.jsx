@@ -4,15 +4,9 @@ const people = [
   {
     name: 'Juliet Smith',
     title: 'Owner',
-    imgSrc: 'https://images.unsplash.com/photo-1485463598028-44d6c47bf23f?q=80&w=2249&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    imgSrc: 'public/assets/artistimg.jpg',
     linkedIn: 'https://linkedin.com',
-  },
-  {
-    name: 'Andrew Davis',
-    title: 'Artist',
-    imgSrc: 'https://images.unsplash.com/photo-1483992645819-22e6df766e84?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    linkedIn: 'https://linkedin.com',
-  },
+  }
 ];
 
 const Artists = () => {
